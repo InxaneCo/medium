@@ -1,0 +1,11 @@
+{
+  "name": "Restify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Naman Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "restify": "^6.3.4"
+  }
+}
