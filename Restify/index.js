@@ -5,8 +5,7 @@ const server = restify.createServer();
 
 server.get('/',
     function (req, res, next) {
-        console.log('I am function first');
-        return next();   
+        console.log('I am function first');  
 
     }, function (req, res ,next) {
         console.log(' I am function second ');
